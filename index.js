@@ -1,6 +1,29 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  const i = 0
+  const sum = array.reduce((previousValue, currentValue) => previousValue + currentValue, i)
+  if(target = sum){
+    return true
+  }
+  else{
+    return false
+  }
 }
+// const initialValue = 0;
+// const sumWithInitial = array1.reduce(
+//   (previousValue, currentValue) => previousValue + currentValue,
+//   initialValue
+// );
+
+// for(let i=0; i<array.length; i++){
+//   sum = i + array[i] 
+// }
+// if(target = sum){
+//   return true
+// }
+// else{
+//   return false
+// }
 
 /* 
   Write the Big O time complexity of your function here
